@@ -1,0 +1,15 @@
+{
+  "name": "reproduce-effection",
+  "version": "1.0.0",
+  "description": "复现 Effection v3→v4 升级指南的调度示例，核实官方输出顺序",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "v4": "node example.mjs",
+    "v3": "node example.v3.mjs"
+  },
+  "dependencies": {
+    "effection": "^4.1.1",
+    "effection-v3": "npm:effection@^3"
+  }
+}
